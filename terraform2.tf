@@ -5,7 +5,7 @@ provider "aws" {
    ami = "ami-0629230e074c580f2"
    instance_type = "t2.micro"
    subnet_id = "subnet-09521af8c6cfe39fb"
-   key_name = "sshkey1"
+   key_name = "jenkins"
    security_groups = ["sg-0bb5391635b3c304e"]
    tags = {
    Name = "ec2tf"
